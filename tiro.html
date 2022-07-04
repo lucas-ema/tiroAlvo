@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro ao Alvo</title>
+    <link rel="stylesheet" href="tiro.css">
+    <script src="tiro.js" defer></script>
+</head>
+
+<body>
+    <h1 style="color: white;">Jogo de Tiro ao alvo!</h1>
+    <canvas width="500" height="300"></canvas>
+    <meta charset="utf-8">
+
+    <div>
+        <label for="nome_usuario">Digite o nome do Jogador:</label>
+        <input type="text" name="nome" id="nome" autofocus>
+    </div>
+
+    <h2 id="pontuacao">Sua Pontuação: 0</h2>
+    <h2 id="disparos">Seus disparos: 0</h2>
+    <h2 id="counter">Seu Tempo: 00:00</h2>
+
+
+    <button onclick="start();" class="bg-green">Iniciar Jogo!</button>
+    <button onclick="stop();" class="bg-red" id="parou">Parar</button>
+
+
+
+</body>
+
+</html>

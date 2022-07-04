@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+canvas{
+    background-image: url(cenario.webp);
+    cursor: crosshair;
+}
+
+button{
+    height: 3em;
+    width: 11em;
+}
+
+body{
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #a1c0d1;
+}
+
+button:active {
+    background-color: #111;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+
+label{
+    color: white;
+    font-size: 1.5em;
+}
